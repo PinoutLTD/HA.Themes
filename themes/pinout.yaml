@@ -146,10 +146,13 @@ Pinout:
   # Input
   input-fill-color: var(--text)
   input-dropdown-icon-color: var(--subtext1)
-  input-ink-color: var(-mantle)
-  input-label-ink-color: var(--text)
+  input-ink-color: var(--text)
+  input-label-ink-color: var(--subtext3)
   input-idle-line-color: var(--text)
   input-hover-line-color: var(--overlay0)
+  mdc-text-field-ink-color: var(--subtext3) 
+  mdc-text-field-fill-color: var(--text) 
+
   
 
   # Toast
@@ -164,5 +167,3 @@ Pinout:
 
   state-on-color: var(--green)
   state-off-color: var(--red)  
-  
-  mdc-text-field-fill-color: var(--text) 
