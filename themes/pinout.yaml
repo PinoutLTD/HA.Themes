@@ -105,7 +105,6 @@ Pinout:
   paper-dialog-color: var(--secondary-text-color)
   paper-dialog-background-color: var(--overlay0)
   paper-card-background-color: var(--card-background-color)
-  state-sun-above_horizon-color: "#f5f54c"
   
 
   # Switches
@@ -169,3 +168,4 @@ Pinout:
 
   state-on-color: var(--green)
   state-off-color: var(--red)  
+  state-sun-above_horizon-color: "rgb(244, 195, 59)"
