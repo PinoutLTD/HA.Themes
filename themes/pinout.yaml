@@ -101,9 +101,12 @@ Pinout:
  
   ha-card-border-radius: "25px"
   ha-card-box-shadow: "none"
+  ha-chip-background-color: var(--subtext3)
   paper-dialog-color: var(--secondary-text-color)
   paper-dialog-background-color: var(--overlay0)
   paper-card-background-color: var(--card-background-color)
+  state-sun-above_horizon-color: "#f5f54c"
+  
 
   # Switches
   switch-checked-button-color: var(--teal)
@@ -121,13 +124,11 @@ Pinout:
   # Table
   table-row-background-color: var(--base)
   data-table-background-color: var(--base)
-  mdc-checkbox-unchecked-color: var(--overlay0) 
   mdc-ripple-color: var(--text)
 
   # Dropdowns
   material-background-color: var(--text)
   material-secondary-background-color: var(--text)
-  mdc-theme-surface: var(--base)
 
   # Pre/Code
   markdown-code-background-color: var(--mantle)
@@ -142,6 +143,9 @@ Pinout:
   mdc-theme-text-icon-on-background: var(--subtext3)
   mdc-theme-text-primary-on-background: var(--subtext3)
   mdc-theme-text-secondary-on-background: var(--subtext3)
+  mdc-checkbox-unchecked-color: var(--subtext3) 
+  mdc-theme-secondary: var(--teal)
+  mdc-dialog-content-ink-color: var(--subtext3)
 
   # Input
   input-fill-color: var(--text)
@@ -152,8 +156,6 @@ Pinout:
   input-hover-line-color: var(--overlay0)
   mdc-text-field-ink-color: var(--subtext3) 
   mdc-text-field-fill-color: var(--text) 
-
-  
 
   # Toast
   paper-toast-background-color: var(--teal)
