@@ -140,7 +140,7 @@ Pinout:
   mdc-select-dropdown-icon-color: var(--teal)
   mdc-select-hover-line-color: var(--overlay0)
   mdc-theme-text-icon-on-background: var(--subtext3)
-  mdc-theme-text-primary-on-background: var(--subtext3)
+  mdc-theme-text-primary-on-background: "#333"
   mdc-theme-text-secondary-on-background: var(--subtext3)
   mdc-checkbox-unchecked-color: var(--subtext3) 
   mdc-theme-secondary: var(--teal)
@@ -164,8 +164,15 @@ Pinout:
   error-color: var(--red)
   warning-color: var(--yellow)
   success-color: var(--green)
-  info-color: var(--blue)
+  info-color: var(--sea)
 
   state-on-color: var(--green)
   state-off-color: var(--red)  
   state-sun-above_horizon-color: "rgb(244, 195, 59)"
+  
+  # additional things
+  hacs-new-color: var(--teal)
+  hcv-color-markdown-background: "#ebebeb"
+  hcv-text-color-on-background: "black"
+  hacs--default-icon-color: var(--subtext3)
+  ha-chip-text-color: var(--text)
