@@ -155,6 +155,7 @@ Pinout:
   input-hover-line-color: var(--overlay0)
   mdc-text-field-ink-color: var(--subtext3) 
   mdc-text-field-fill-color: var(--text) 
+  
 
   # Toast
   paper-toast-background-color: var(--teal)
