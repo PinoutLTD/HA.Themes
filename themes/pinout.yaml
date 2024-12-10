@@ -31,7 +31,7 @@ Pinout:
   maroon: "#ea999c"
   peach: "#ef9f76"
   yellow: "#f2da65" 
-  green: "#a3e089" 
+  green: "#a3e089"
   teal: "#175973"
   sea: "#0b7b84"
   sapphire: "#85c1dc"
@@ -69,6 +69,7 @@ Pinout:
   sidebar-text-color: var(--text)
   sidebar-selected-icon-color: var(--text)
   sidebar-selected-text-color: var(--text)
+  sidebar-menu-button-background-color: var(--surface2)
 
   # Buttons
   paper-item-icon-color: var(--teal)
