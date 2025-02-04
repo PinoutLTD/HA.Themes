@@ -1,8 +1,6 @@
 # Home Assistant theme
 Home Assistant theme in Pinout colors
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository=https%3A%2F%2Fgithub.com%2FPinoutLTD%2FHA.Themes&category=Theme&owner=PinoutLTD)
-
 ## Install
 
 ### Using HACS
