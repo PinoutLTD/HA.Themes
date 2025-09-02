@@ -1,45 +1,82 @@
 ####################### PINOUT THEME ######################
-
 Pinout:
   # Colors
-  text: "#ffffff"
+  modes:
+    light:
+      text: "#ffffff"
 
-  subtext1: "#7d7a73" 
-  subtext2: "#d4d0cf" 
-  subtext3: "#414141" 
-  subtext4: "#d4d0cf" 
+      subtext1: "#7d7a73" 
+      subtext2: "#d4d0cf" 
+      subtext3: "#414141" 
+      subtext4: "#d4d0cf" 
 
-  surface4: "#ccc8c7"
-  surface3: "#bab5b4"
-  surface2: "#a19d9c" 
-  surface1: "#7c7b7a"
-  surface0: "#e9e9e9" 
+      surface4: "#ccc8c7"
+      surface3: "#bab5b4"
+      surface2: "#a19d9c" 
+      surface1: "#7c7b7a"
+      surface0: "#e9e9e9" 
 
-  overlay0: "#f7e9df" 
-  overlay1: "#9e9895" 
+      overlay0: "#f7e9df" 
+      overlay1: "#9e9895" 
 
-  base: "#e9e9e9"
-  mantle: "#b2abab" 
+      base: "#e9e9e9"
+      mantle: "#b2abab" 
+      
+      hcv-color-markdown-background: "#ebebeb"
+      inputBg: "#ffffff"
+      text-light-primary-color: "#ffffff"
+
+    dark:
+      text: "#e6e6e6"         
+      subtext1: "#b0b0b0"     
+      subtext2: "#999999"
+      subtext3: "#dcdcdc"
+      subtext4: "#555555"
+    
+      surface0: "#0f0f0f" 
+      surface1: "#181818"     
+      surface2: "#202020"      
+      surface3: "#2a2a2a"      
+      surface4: "#333333"     
+    
+      overlay0: "#1c1c1c"
+      overlay1: "#262626"
+    
+      base: "#121212"      
+      mantle: "#ececec"     
 
 
-  # colors 
+      card-background-color: "#121212"
+      hcv-color-markdown-background: "#dddddd"
+      inputBg: "#121212"
+      mdc-radio-unchecked-color: "#ececec"
+      mdc-theme-on-secondary: "#121212"
+      mdc-theme-text-primary-on-background: "#ffffff"
+      md-assist-chip-leading-icon-color: "#121212"
+      md-assist-chip-label-text-color: "#121212"
+      md-assist-chip-hover-leading-icon-color: "#121212"
+      md-assist-chip-hover-label-text-color: "#121212"
+      
+
+     
+  # Shared accent colors (same for both light/dark)
   rosewater: "#f2d5cf"
   flamingo: "#eebebe"
   pink: "#f4b8e4"
   mauve: "#ca9ee6"
-  red: "#a0284e"
+  red: "#ff6b6b"
   maroon: "#ea999c"
   peach: "#ef9f76"
   yellow: "#f2da65" 
   green: "#a3e089"
-  teal: "#175973"
+  teal: "#26a69a"
   sea: "#0b7b84"
   sapphire: "#85c1dc"
   blue: "#4a8fd3"
   lavender: "#babbf1"
-  beige: "#a19d9c"
+  beige: "#999999"
 
-  ###########################
+###########################
 
 
   # Header
@@ -156,14 +193,14 @@ Pinout:
   
 
   # Input
-  input-fill-color: var(--text)
+  input-fill-color: var(--inputBg)
   input-dropdown-icon-color: var(--subtext1)
   input-ink-color: var(--text)
   input-label-ink-color: var(--subtext3)
   input-idle-line-color: var(--text)
   input-hover-line-color: var(--overlay0)
   mdc-text-field-ink-color: var(--subtext3) 
-  mdc-text-field-fill-color: var(--text) 
+  mdc-text-field-fill-color: var(--inputBg) 
 
   # Toast
   paper-toast-background-color: var(--teal)
@@ -186,7 +223,7 @@ Pinout:
   
   # additional things
   hacs-new-color: var(--teal)
-  hcv-color-markdown-background: "#ebebeb"
+  hcv-color-markdown-background: var(--hcv-color-markdown-background)
   hcv-text-color-on-background: var(--subtext3)
   info-color: var(--sea)
   hacs--default-icon-color: var(--subtext3)
