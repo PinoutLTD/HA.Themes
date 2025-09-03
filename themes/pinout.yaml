@@ -20,42 +20,46 @@ Pinout:
       overlay1: "#9e9895" 
 
       base: "#e9e9e9"
-      mantle: "#b2abab" 
+      mantle: "#e4e4e4" 
       
       hcv-color-markdown-background: "#ebebeb"
       inputBg: "#ffffff"
       text-light-primary-color: "#ffffff"
+      teal: "#175973"
 
     dark:
       text: "#e6e6e6"         
-      subtext1: "#b0b0b0"     
+      subtext1: "#b0b0b0"
       subtext2: "#999999"
       subtext3: "#dcdcdc"
-      subtext4: "#555555"
+      subtext4: "#aaaaaa"      
     
-      surface0: "#0f0f0f" 
-      surface1: "#181818"     
-      surface2: "#202020"      
-      surface3: "#2a2a2a"      
-      surface4: "#333333"     
+      surface0: "#2e2d2d"      
+      surface1: "#3a3a3a"      
+      surface2: "#333333"      
+      surface3: "#3b3b3b"      
+      surface4: "#444444"
+      surface5: "#403e3e"
     
-      overlay0: "#1c1c1c"
-      overlay1: "#262626"
+      overlay0: "#2c2c2c"     
+      overlay1: "#383838"      
     
-      base: "#121212"      
-      mantle: "#ececec"     
-
-
-      card-background-color: "#121212"
-      hcv-color-markdown-background: "#dddddd"
-      inputBg: "#121212"
+      base: "#2a2a2a"         
+      mantle: "#dcdcdc"        
+    
+      # special elements for dark theme 
+      card-background-color: "#3e3e3e"
+      hcv-color-markdown-background: "#e0e0e0"
+      inputBg: "#515151"
+      inputText: var(--subtext3)
       mdc-radio-unchecked-color: "#ececec"
-      mdc-theme-on-secondary: "#121212"
       mdc-theme-text-primary-on-background: "#ffffff"
-      md-assist-chip-leading-icon-color: "#121212"
-      md-assist-chip-label-text-color: "#121212"
-      md-assist-chip-hover-leading-icon-color: "#121212"
-      md-assist-chip-hover-label-text-color: "#121212"
+      material-background-color: var(--surface5)
+      mdc-checkbox-checked-color: var(--surface5)
+      markdown-code-background-color: "#545454"
+      primary-color: "#40c1b5"
+      yellow: "#b9ac6b"
+      teal: "#26a69a"
       
 
      
@@ -67,16 +71,15 @@ Pinout:
   red: "#ff6b6b"
   maroon: "#ea999c"
   peach: "#ef9f76"
-  yellow: "#f2da65" 
-  green: "#a3e089"
-  teal: "#26a69a"
+  yellow: "#b9ac6b"  
+  green: "#5bc22f"
   sea: "#0b7b84"
   sapphire: "#85c1dc"
   blue: "#4a8fd3"
   lavender: "#babbf1"
   beige: "#999999"
 
-###########################
+  ###########################
 
 
   # Header
@@ -199,7 +202,7 @@ Pinout:
   input-label-ink-color: var(--subtext3)
   input-idle-line-color: var(--text)
   input-hover-line-color: var(--overlay0)
-  mdc-text-field-ink-color: var(--subtext3) 
+  mdc-text-field-ink-color: var(--inputText)
   mdc-text-field-fill-color: var(--inputBg) 
 
   # Toast
